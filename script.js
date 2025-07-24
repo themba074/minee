@@ -59,9 +59,9 @@ const messages = [
     "Are you positive?",
     "Damn really?😔",
     "Yoh my heart💔",
-    "u serious vele",
+    "u serious vele?",
     "Ok fine, I will stop asking...",
-    "Kadlala, say yes please! ❤️"
+    "Kadlala, please say yes! ❤️"
 ];
 
 let messageIndex = 0;
