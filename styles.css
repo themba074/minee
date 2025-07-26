@@ -44,9 +44,8 @@ body {
     cursor: pointer;
   }
   
-  .gif_container img {
-    max-width: 100%;
+.gif_container img {
+    width: 300px;
     height: auto;
-    border-radius: 10px;
-    margin-top: 20px;
-  }
+    border-radius: 10px; /* Optional: for rounded corners */
+}
