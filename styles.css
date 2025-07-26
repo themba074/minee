@@ -45,8 +45,3 @@ body {
   }
   
 
-.gif_container img {
-    width: 300px;
-    height: auto;
-    border-radius: 10px; /* Optional: for rounded corners */
-}
