@@ -11,6 +11,16 @@ html, body {
   align-items: center;
 }
 
+body {
+  background-color: #e5e5f7;
+  background-image:
+    linear-gradient(135deg, #444cf755 25%, transparent 25%) -20px 0 / 40px 40px,
+    linear-gradient(225deg, #444cf7 25%, transparent 25%) -20px 0 / 40px 40px,
+    linear-gradient(315deg, #444cf755 25%, transparent 25%) 0 0 / 40px 40px,
+    linear-gradient(45deg, #444cf7 25%, #e5e5f7 25%) 0 0 / 40px 40px;
+  background-repeat: repeat;
+}
+
 /* Container that fills the screen but scrolls internally if needed */
 .container {
   text-align: center;
