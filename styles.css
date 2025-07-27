@@ -73,6 +73,9 @@ body {
   max-width: 250px;
   background-color: #000000; /* default Spotify green */
 }
+.no-button {
+    color: #000000
+}
 
 .yes-button:hover,
 .no-button:hover {
