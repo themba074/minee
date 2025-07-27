@@ -71,7 +71,7 @@ body {
   transition: all 0.3s ease;
   width: 80%;
   max-width: 250px;
-  background-color: #ffffff; /* default Spotify green */
+  background-color: #000000; /* default Spotify green */
 }
 
 .yes-button:hover,
@@ -83,7 +83,7 @@ body {
 
 /* Differentiate No button color */
 .no-button {
-  background-color: #dc5349; /* red */
+  background-color: #ffffff; /* red */
   box-shadow: 0 4px 15px rgba(220, 83, 73, 0.5);
 }
 
