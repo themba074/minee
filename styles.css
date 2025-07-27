@@ -1,47 +1,66 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #A47DAB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+  background-color: #A47DAB;
+  font-family: 'Arial', sans-serif;
+  flex-direction: column;
+  box-sizing: border-box;
+}
 
-    font-family: 'Arial', sans-serif;
-    flex-direction: column;
+.container {
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+}
+
+h1 {
+  font-size: 2em;
+  color: #ffffff;
+  word-wrap: break-word;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.yes-button,
+.no-button {
+  font-size: 1.2em;
+  padding: 12px 24px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.yes-button {
+  background-color: #4caf50;
+}
+
+.no-button {
+  background-color: #dc5349;
+}
+
+@media (min-width: 600px) {
+  .buttons {
+    flex-direction: row;
+    justify-content: center;
   }
-  
-  .container {
-    text-align: center;
+
+  .yes-button,
+  .no-button {
+    width: auto;
   }
-  
+
   h1 {
     font-size: 2.5em;
-    color: #ffffff;
   }
-  
-  .buttons {
-    margin-top: 20px;
-  }
-  
-  .yes-button {
-    font-size: 1.5em;
-    padding: 10px 20px;
-    margin-right: 10px;
-    background-color: #4caf50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .no-button {
-    font-size: 1.5em;
-    padding: 10px 20px;
-    background-color: #dc5349;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-
+}
