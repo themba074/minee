@@ -37,8 +37,8 @@ body {
 }
 
 .gif_container img {
-    width: 100%;
-    max-width: 500px;
+    width: 90%;
+    max-width: 400px;
     height: auto;
 }
 
